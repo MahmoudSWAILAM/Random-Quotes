@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+:root{
+    /* colors */
+    --color-primary: #0078FF;
+    --color-primary-hover: #CDE1F8;
+    --color-secondary: #1e1e1e;
+    --color-tertiary: #4e4e4e;
+    --color-font-secondary: #FFF;
+    --color-nav-background: rgba(0, 0, 0, 0.9);
+    --color-background: #F5F5F5;
+
+    /* fonts */
+    --font-primary: "Roboto Slab", serif;
+    --font-secondary:  "Amatic SC", sans-serif;
+    --font-tertiary: "Inter", sans-serif;
+}
+
+
+/*^============> General <============*/
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background: var(--color-background);
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+picture,
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+span{
+    font-family: var(--font-primary);
+}
+a,
+p{
+    font-family: var(--font-primary);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ---------                                  ----------
+           <( all style hear is mobile first )> 
+   ---------                                  ---------- */
+
+
+/*^============> Navbar <============*/
+
+
+
+
+/*^============> header <============*/
+
+.row>* {
+  padding: 0;
+}
+.box1{
+  border: 3px solid #131313;
+}
+.box2{
+  border: 6px solid #666666;
+}
+.box3{
+  border: 3px solid #131313;
+  padding: 5rem 6rem;
+  position: relative;
+}
+.box3::after{
+  content: ",,";
+  font-size: 12rem;
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+.box3::before{
+  content: ",,";
+  font-size: 12rem;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  rotate: 180deg;
+}
+.box3 h1{
+  padding-bottom: 2rem;
+  font-size: 5rem;
+}
+.box3 p{
+  font-size: 22px;
+}
+.box3 span{
+  font-style: italic;
+}
+.nextBtn{
+  padding: 20px 40px;
+  width: fit-content;
+  border: 5px solid #131313;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.nextBtn:hover{
+  background-color: #131313;
+  color: #FFF;
+  border-color: #666666;
+}
+
+
+
+/*^============> about <============*/
+
+
+
+
+/*^============> services <============*/
+
+
+
+
+/*^============> counter <============*/
+
+
+
+
+/*^============> portfolio <============*/
+
+
+
+
+
+/*^============> testmonial <============*/
+
+
+
+
+/*^============> blog <============*/
+
+
+
+
+/*^============> Footer <============*/
